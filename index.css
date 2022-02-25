@@ -18,7 +18,6 @@
 }
 .screen-display {
   padding: 20px 10px;
-  border: 1px solid black;
   width: 300px;
   height: 680px;
 }
@@ -75,42 +74,32 @@
 }
 
 .singer-songs {
-  width: 300px;
-  height: 310px;
   position: relative;
-  border: 1px solid blue;
+  /* border: 1px solid yellowgreen; */
 }
 .singer-songs__list {
   display: flex;
   margin-top: 40px;
   flex-direction: column;
-  width: inherit;
-  height: 270px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .singer-songs__list-info {
   display: flex;
   align-items: center;
-  width: 280px;
-  height: 60px;
+  width: inherit;
   margin-bottom: 5px;
   border-radius: 20px;
-  padding: 0 10px;
+  padding: 3px 10px;
+
+  /* border: 1px solid blue; */
 }
 .singer-songs__list-info:nth-child(2) {
   box-shadow: #e1d9f7 0px 6px 12px -2px, #e1d9f7 0px 3px 7px -3px;
 }
-.singer-songs__list-info__notphoto {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 15px;
-  width: inherit;
-  border: 1px solid green;
-}
+
 .singer-songs__list-info_photo {
+  /* display: flex; */
   position: relative;
-  position: flex;
 }
 .singer-songs__list-info_photo-now_playing {
   position: absolute;
@@ -129,6 +118,13 @@
   border-radius: 10px;
   border: 0.5px solid #c9a7ef;
 }
+.singer-songs__list-info__notphoto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15px;
+  width: 100%;
+}
 .singer-songs__list-info_text-singername {
   font-size: 15px;
   font-weight: 600;
@@ -139,15 +135,17 @@
   font-weight: 600;
   margin-top: 10px;
 }
+.singer-songs__list-info_ellipsis i {
+  font-size: 15px;
+}
 
 .playing-controller {
   position: relative;
-  width: 100%;
   height: 60px;
   background-color: #222222;
   color: white;
   border-radius: 30px;
-  /* margin-top: 5px; */
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -162,10 +160,11 @@
   display: flex;
   align-items: center;
 }
-.playing-controller__controller i {
+.playing-controller__controller button {
   font-size: 20px;
+  color: white;
 }
-.playing-controller__controller i:nth-child(2) {
+.playing-controller__controller button:nth-child(2) {
   margin: 0 20px;
   font-size: 35px;
 }
