@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="user-component.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="screen-container">
+      <div class="screen">
+        <div class="screen-display">
+          <div class="user-component">
+            <button class="user-component__back">
+              <i class="fa-solid fa-arrow-left fa-lg"></i>
+            </button>
+            <button class="user-component__search">
+              <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </button>
+          </div>
+          <header class="singer-info">
+            <div class="singer-info__photo"><img src="IU.jpg" /></div>
+            <div class="singer-info__title">아이유 (IU)</div>
+            <div class="singer-info__text">K-pop / Pop music</div>
+            <div class="singer-info__buttons">
+              <button class="singer-info__buttons-shuffle" type="button">
+                Shuffle
+              </button>
+              <button class="singer-info__buttons-fav" type="button">
+                <i class="fa-solid fa-heart"></i> 83.6K
+              </button>
+            </div>
+          </header>
+
+          <main class="singer-songs">
+            <ul class="singer-songs__list">
+              <li class="singer-songs__list-info">
+                <div class="singer-songs__list-info_photo">
+                  <img src="song_strawberry_moon.jpg" />
+                </div>
+                <div class="singer-songs__list-info__notphoto">
+                  <div class="singer-songs__list-info_text">
+                    <div class="singer-songs__list-info_text-singername">
+                      IU
+                    </div>
+                    <div class="singer-songs__list-info_text-songname">
+                      Strawberry moon
+                    </div>
+                  </div>
+                  <div class="singer-songs__list-info_ellipsis">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                  </div>
+                </div>
+              </li>
+
+              <li class="singer-songs__list-info">
+                <div class="singer-songs__list-info_photo">
+                  <img src="song_blueming.jpg" />
+                  <div class="singer-songs__list-info_photo-now_playing">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </div>
+                </div>
+                <div class="singer-songs__list-info__notphoto">
+                  <div class="singer-songs__list-info_text">
+                    <div class="singer-songs__list-info_text-singername">
+                      IU
+                    </div>
+                    <div class="singer-songs__list-info_text-songname">
+                      Blueming
+                    </div>
+                  </div>
+                  <div class="singer-songs__list-info_ellipsis">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="singer-songs__list-info">
+                <div class="singer-songs__list-info_photo">
+                  <img src="song_eight.jpg" />
+                </div>
+                <div class="singer-songs__list-info__notphoto">
+                  <div class="singer-songs__list-info_text">
+                    <div class="singer-songs__list-info_text-singername">
+                      IU
+                    </div>
+                    <div class="singer-songs__list-info_text-songname">
+                      Eight
+                    </div>
+                  </div>
+
+                  <div class="singer-songs__list-info_ellipsis">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="singer-songs__list-info">
+                <div class="singer-songs__list-info_photo">
+                  <img src="song_palette.jpg" />
+                </div>
+                <div class="singer-songs__list-info__notphoto">
+                  <div class="singer-songs__list-info_text">
+                    <div class="singer-songs__list-info_text-singername">
+                      IU
+                    </div>
+                    <div class="singer-songs__list-info_text-songname">
+                      Palette
+                    </div>
+                  </div>
+                  <div class="singer-songs__list-info_ellipsis">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </main>
+
+          <footer class="playing-controller">
+            <div class="playing-controller__songinfo">
+              <h5 class="playing-controller__songinfo-singer">IU</h5>
+              <h5 class="playing-controller__songinfo-songname">Blueming</h5>
+            </div>
+            <div class="playing-controller__controller">
+              <i class="fa-solid fa-backward-step"></i>
+              <i class="fa-solid fa-pause"></i>
+              <i class="fa-solid fa-forward-step"></i>
+            </div>
+          </footer>
+        </div>
+      </div>
+
+      <div class="screen">
+        <div class="screen-display">
+          <div class="user-component">
+            <button class="user-component__back">
+              <i class="fa-solid fa-arrow-left fa-lg"></i>
+            </button>
+            <button class="user-component__search">
+              <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/18f5a1cd8d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

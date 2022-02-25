@@ -1,0 +1,7 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+}
+.user-component i {
+  color: #4c4c4c;
+}
